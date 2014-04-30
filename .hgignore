@@ -1,0 +1,10 @@
+syntax: glob
+*.sln
+*.suo
+*/bin
+*/Backup
+Backup/*
+*ReSharper*
+*Debug/*
+*.user
+*.csproj

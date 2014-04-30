@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Driver Haven";
+}
+
+ <h2 style="width: 40%">Driver Haven</h2>
+
+<div class="Content" style="margin: 20% auto; width:20%;">
+
+    <img src="@Url.Content("~/Images/compuetr drivers.gif")" height="40%" width="40%" alt="Computer Drivers" style="margin-right: 5%"/>  <img src="@Url.Content("~/Images/windows logo.PNG")" width="40%" height="40%" alt="Windows Updates" /> <br/>
+    <div style="margin-left: 7%; display:inline-block">@Html.ActionLink("Computer Drivers","Index","Drivers")  </div>                    <div style="margin-left: 13%; display: inline-block"> @Html.ActionLink("Windows Updates", "Index", "WindowsUpdates", new {Area = ""}, null) </div>
+</div>
+

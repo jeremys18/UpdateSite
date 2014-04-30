@@ -1,0 +1,34 @@
+﻿
+@model List<update_site.Entities.Update>
+
+
+<div class="Content">
+<h3>@ViewBag.Title</h3>
+<table id="UpdateList" class="table">
+        <tr>
+            <th>KB</th>
+            <th>Update Name</th>
+            <th>Importance</th>
+            <th>Description</th>
+        </tr>
+
+        @foreach (var update in Model)
+        {
+            <tr>
+                <td><a href="@update.DownloadUrl">@update.KBNumber</a></td>
+                <td>@update.Name</td>
+                <td>@if(update.IsOptional)
+                     {
+                         <text>Optional</text>
+                     }
+                     else
+                     {
+                         <text>Important</text>
+                     }
+                </td>
+                <td>@update.Descripton</td>
+           </tr>
+        }   
+
+</table>
+</div>

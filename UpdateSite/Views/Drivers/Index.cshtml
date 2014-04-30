@@ -1,0 +1,22 @@
+﻿
+@model List<update_site.Entities.Company>
+
+@{
+    ViewBag.Title = "ComputerDrivers";
+}
+
+<h2>Computer Drivers</h2>
+
+
+<div class="Content">
+
+
+@foreach (var company in Model)
+{
+
+   <img class="company"  src='@Url.Content("~/Images/Companies/"+company.Name+"/logo.jpg")'  width="15%" height="15%" alt="Logo" onclick='location.href = "@Url.Action("Computers", new {companyName = company.Name})"'/>
+
+}
+
+</div>
+

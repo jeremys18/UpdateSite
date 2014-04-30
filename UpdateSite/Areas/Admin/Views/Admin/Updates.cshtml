@@ -1,0 +1,43 @@
+﻿@model update_site.Areas.Admin.Adaptors.UpdateModel
+@{
+    ViewBag.Title = "Updates";
+}
+
+<h2>Updates</h2>
+
+
+<div class="Content">
+
+@using(Html.BeginForm())
+{
+    @Html.HiddenFor(x => x.Update.Id)
+    @:KB Number  @Html.EditorFor(x => x.Update.KBNumber)<br/>
+    @:Name @Html.EditorFor(x => x.Update.Name) <br/>
+    @:Description  @Html.EditorFor(x => x.Update.Descripton) <br/>
+    @:OSs  <br />
+    
+    @Html.ListBoxFor( x => x.SelectedOSs, new List<SelectListItem>()
+                                                     {
+                                                         new SelectListItem{Text = "Windows 98SE", Value = "Windows 98SE"},
+                                                         new SelectListItem{Text = "Windows XP", Value = "Windows XP"},
+                                                         new SelectListItem{Text = "Windows Vista", Value = "Windows Vista"},
+                                                         new SelectListItem{Text = "Windows 7", Value = "Windows 7"}
+                                                     })
+     
+    
+
+    <br />
+    <br/>
+    <input type="submit" value="Create"/>
+}
+
+<br/>
+<br/>
+
+@using(Html.BeginForm("UpdatesXml","Admin", FormMethod.Post, new { enctype="multipart/form-data"}))
+{
+    <input type="file" value="Select a file" name="file"/> <br />
+    <br/>
+    <input type="submit" value="Import XML"/>
+}
+</div>

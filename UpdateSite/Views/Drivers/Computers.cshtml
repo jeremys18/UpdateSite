@@ -1,0 +1,17 @@
+﻿@model update_site.Entities.Company
+
+
+<div class="Content">
+<h3>@ViewBag.Title</h3>
+
+
+@foreach (var computer in Model.Computers)
+{
+    <div class="computer">
+        <img   src='@Url.Content(@"~/Images/Companies/"+computer.Company+"/Computers/"+computer.Model.Replace(" ","_")+".png")'  alt="Logo" onclick='location.href = "@Url.Action("Index")"'/> <br/>
+        @computer.Model
+   </div>
+}
+
+</div>
+

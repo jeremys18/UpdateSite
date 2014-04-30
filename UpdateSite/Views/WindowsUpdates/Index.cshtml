@@ -1,0 +1,20 @@
+﻿@model List<update_site.Entities.OS>
+
+@{
+    ViewBag.Title = "WindowsUpdates";
+}
+
+<h1>WindowsUpdates</h1>
+
+
+<div class="Content">
+
+
+@foreach (var os in Model)
+{
+
+   <img class="OS"  src='@Url.Content("~/Images/OS/"+os.Name+".jpg")'  width="45%" height="45%" alt="company Logo" onclick='location.href = "@Url.Action("UpdatesList",  new {os = @os.Name})"'/>
+
+}
+
+</div>

@@ -29,3 +29,33 @@ C:\Users\jstyers\Documents\Visual Studio 2012\Projects\UpdateSite\UpdateSite\obj
 C:\Users\jstyers\Documents\Visual Studio 2012\Projects\UpdateSite\UpdateSite\obj\Debug\UpdateSite.pdb
 C:\Users\jstyers\Documents\Visual Studio 2012\Projects\UpdateSite\UpdateSite\obj\Debug\UpdateSite.csprojResolveAssemblyReference.cache
 C:\Users\jstyers\Documents\Visual Studio 2012\Projects\UpdateSite\UpdateSite\bin\UpdateSite.dll.config
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\bin\UpdateSite.dll
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\bin\UpdateSite.pdb
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\bin\EntityFramework.dll
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\bin\EntityFramework.SqlServer.dll
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\bin\Newtonsoft.Json.dll
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\bin\System.Net.Http.Formatting.dll
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\bin\System.Web.Helpers.dll
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\bin\System.Web.Http.dll
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\bin\System.Web.Http.WebHost.dll
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\bin\System.Web.Mvc.dll
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\bin\System.Web.Razor.dll
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\bin\System.Web.WebPages.dll
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\bin\System.Web.WebPages.Razor.dll
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\bin\EntityFramework.xml
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\bin\EntityFramework.SqlServer.xml
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\bin\System.Web.Helpers.xml
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\bin\System.Web.Mvc.xml
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\bin\System.Web.Razor.xml
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\bin\System.Web.WebPages.xml
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\bin\System.Web.WebPages.Razor.xml
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\bin\Newtonsoft.Json.xml
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\bin\System.Net.Http.Formatting.xml
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\bin\System.Web.Http.xml
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\bin\System.Web.Http.WebHost.xml
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\obj\Debug\UpdateSite.csprojResolveAssemblyReference.cache
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\obj\Debug\UpdateSite.dll
+C:\Users\Jeremy\Desktop\UpdateSite\UpdateSite\obj\Debug\UpdateSite.pdb

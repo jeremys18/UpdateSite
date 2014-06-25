@@ -185,6 +185,7 @@
     <Content Include="Images\OS\Windows Vista.jpg" />
     <Content Include="Images\OS\Windows XP.jpg" />
     <Content Include="Images\windows logo.PNG" />
+    <Content Include="DB Backups\UpdateSite.bak" />
     <None Include="Scripts\jquery-1.5.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.5.1.js" />
     <Content Include="Scripts\jquery-1.5.1.min.js" />

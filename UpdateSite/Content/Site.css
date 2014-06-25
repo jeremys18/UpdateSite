@@ -85,8 +85,8 @@ textarea
     margin: 15% auto;
     width: 40%;
     border-radius: 25px;
-    -moz-animation-duration: 3s;
-    animation-delay: 2s; 
+    -moz-animation-duration: 5s;
+    animation-delay: 5s; 
 }
 
 .Content Table

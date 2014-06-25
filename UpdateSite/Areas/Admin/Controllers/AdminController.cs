@@ -50,21 +50,27 @@ namespace update_site.Areas.Admin.Controllers
             return View();
         }
 
+
+        /// <summary>
+        /// Reads in the xml file and adds each update to the database
+        /// BE SURE TO CHECK WHICH SYSTEM IT'S ADDING THEM TO! Default is windows 7
+        /// </summary>
+        /// <param name="file">The xml file containg the updates to add</param>
+        /// <returns>The home page again</returns>
         [HttpPost]
         public ActionResult UpdatesXml(HttpPostedFileBase file)
         {
             if(file != null && file.ContentLength > 0)
             {
-                var serializer = new XmlSerializer(typeof(List<Update2>));
+                var serializer = new XmlSerializer(typeof(List<Update>));
                 var reader = new StreamReader(file.InputStream);
-                var updates = (List<Update2>)serializer.Deserialize(reader);
+                var updates = (List<Update>)serializer.Deserialize(reader);
                 var sr = new SiteRepository();
-                foreach (var update2 in updates)
+                foreach (var update in updates)
                 {
-                    var update = new Update { Descripton = update2.Description, KBNumber = update2.KB, Name = update2.Title };
+                    update.Is32Bit = false;
                     sr.AddUpdate(update);
                 }
-
                 return View("~/Views/Home/Index.cshtml");
             }
             return View("Updates");

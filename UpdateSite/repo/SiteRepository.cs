@@ -57,8 +57,9 @@ namespace update_site.repo
 
         public void AddUpdate(Update update)
         {
-            var updates = GetOs("Windows 7").Updates ?? new List<Update>();
-            if (updates.FirstOrDefault(x => x.KBNumber == update.KBNumber) == null)
+            var updates = GetOs("Windows 98SE").Updates ?? new List<Update>();
+            var update2 = updates.FirstOrDefault(x => x.KBNumber == update.KBNumber);
+            if (update2 == null || (update2 != null && update.Is32Bit != update2.Is32Bit) )
                 updates.Add(update);
             SaveChanges();
         }

@@ -7,17 +7,19 @@
 <h3>@ViewBag.Title</h3>
 <table id="UpdateList" class="table">
         <tr>
+            <th>#</th>
             <th>KB</th>
             <th>Update Name</th>
             <th>Description</th>
         </tr>
 
-        @foreach (var update in Model)
+        @for (var i = 1; i < Model.Count;  i++)
         {
             <tr>
-                <td>@update.KBNumber</td>
-                <td>@update.Name</td>
-                <td>@update.Descripton</td>
+                <td>@i</td>
+                <td><a href="@Model[i-1].DownloadUrl" >@Model[i-1].KBNumber</a></td>
+                <td>@Model[i-1].Name</td>
+                <td>@Model[i-1].Descripton</td>
            </tr>
         }   
 

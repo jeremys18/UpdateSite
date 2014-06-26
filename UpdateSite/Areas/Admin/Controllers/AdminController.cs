@@ -68,7 +68,7 @@ namespace update_site.Areas.Admin.Controllers
                 var sr = new SiteRepository();
                 foreach (var update in updates)
                 {
-                    update.Is32Bit = false;
+                    update.Is32Bit = true;
                     sr.AddUpdate(update);
                 }
                 return View("~/Views/Home/Index.cshtml");
